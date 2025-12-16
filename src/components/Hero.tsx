@@ -8,7 +8,7 @@ export default function Hero() {
             {/* Background Image */}
             <div
                 className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-                style={{ backgroundImage: "url('/images/hero.png')" }}
+                style={{ backgroundImage: "url('/images/hero_lounge.png')" }}
             >
                 <div className="absolute inset-0 bg-black/40" /> {/* Overlay */}
             </div>

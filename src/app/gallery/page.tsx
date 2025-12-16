@@ -5,12 +5,12 @@ import { useState } from "react";
 import Image from "next/image";
 
 const images = [
-    { src: "/images/hero.png", alt: "Grand Lobby" },
-    { src: "/images/room.png", alt: "Executive Suite" },
-    { src: "/images/shisha.png", alt: "Rooftop Lounge" },
-    { src: "/images/room.png", alt: "Royal Suite Bedroom" },
-    { src: "/images/hero.png", alt: "Private Entrance" },
-    { src: "/images/shisha.png", alt: "Outdoor Terrace" },
+    { src: "/images/hero_lounge.png", alt: "Rooftop Views" },
+    { src: "/images/shisha_detail.png", alt: "Premium Shisha" },
+    { src: "/images/restaurant_interior.png", alt: "Elegant Dining" },
+    { src: "/images/food.png", alt: "Gourmet Cuisine" },
+    { src: "/images/cocktail.png", alt: "Signature Drinks" },
+    { src: "/images/shisha.png", alt: "Relaxing Ambiance" },
 ];
 
 export default function GalleryPage() {

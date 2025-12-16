@@ -6,7 +6,7 @@ export default function AboutPage() {
     return (
         <div className="bg-white">
             {/* Header */}
-            <div className="relative h-[60vh] bg-cover bg-center" style={{ backgroundImage: "url('/images/hero.png')" }}>
+            <div className="relative h-[60vh] bg-cover bg-center" style={{ backgroundImage: "url('/images/restaurant_interior.png')" }}>
                 <div className="absolute inset-0 bg-black/50" />
                 <div className="absolute inset-0 flex items-center justify-center">
                     <h1 className="text-4xl md:text-6xl font-serif font-bold text-white tracking-widest uppercase">About Us</h1>
