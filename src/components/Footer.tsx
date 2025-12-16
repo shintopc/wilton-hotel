@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                     {/* Brand */}
                     <div className="md:col-span-1">
-                        <div className="relative h-20 w-40 mb-6">
+                        <div className="relative h-28 w-56 mb-6">
                             <img
                                 src="/images/logo.png"
                                 alt="Wilton Hotel"
