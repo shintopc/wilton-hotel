@@ -9,7 +9,13 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                     {/* Brand */}
                     <div className="md:col-span-1">
-                        <h2 className="font-serif text-3xl font-bold tracking-wide mb-6">WILTON</h2>
+                        <div className="relative h-20 w-40 mb-6">
+                            <img
+                                src="/images/logo.png"
+                                alt="Wilton Hotel"
+                                className="w-full h-full object-contain object-left"
+                            />
+                        </div>
                         <p className="text-white/80 leading-relaxed mb-6">
                             Experience the clear difference of luxury and comfort in the heart of Abu Dhabi.
                             Modern elegance meets traditional hospitality.

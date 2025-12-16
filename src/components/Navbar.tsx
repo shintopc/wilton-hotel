@@ -41,8 +41,12 @@ export default function Navbar() {
         >
             <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
                 {/* Logo */}
-                <Link href="/" className="font-serif text-2xl md:text-3xl font-bold tracking-wide">
-                    WILTON
+                <Link href="/" className="relative h-16 w-32 md:w-40">
+                    <img
+                        src="/images/logo.png"
+                        alt="Wilton Hotel"
+                        className="w-full h-full object-contain"
+                    />
                 </Link>
 
                 {/* Desktop Menu */}
