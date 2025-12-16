@@ -21,7 +21,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.2 }}
                     className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-wide drop-shadow-lg"
                 >
-                    WILTON HOTEL
+                    WILTON LOUNGE & RESTAURANT
                 </motion.h1>
 
                 <motion.p
@@ -30,7 +30,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     className="text-lg md:text-2xl font-light mb-10 max-w-2xl text-white/90"
                 >
-                    Experience elegance, comfort, and premium hospitality in the heart of Abu Dhabi
+                    Experience premium shisha, gourmet dining, and an atmosphere of pure elegance in Abu Dhabi
                 </motion.p>
 
                 <motion.div
@@ -45,13 +45,7 @@ export default function Hero() {
                         rel="noopener noreferrer"
                         className="px-8 py-3 bg-royal-blue text-white uppercase tracking-widest font-bold hover:bg-gold transition-colors duration-300 border border-royal-blue"
                     >
-                        Book via WhatsApp
-                    </a>
-                    <a
-                        href="/rooms"
-                        className="px-8 py-3 bg-transparent text-white uppercase tracking-widest font-bold hover:bg-white hover:text-royal-blue transition-colors duration-300 border border-white"
-                    >
-                        Explore Rooms
+                        Reserve Table via WhatsApp
                     </a>
                 </motion.div>
             </div>

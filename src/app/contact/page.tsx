@@ -28,7 +28,7 @@ export default function ContactPage() {
                             <MapPin className="text-gold mt-1 shrink-0" size={24} />
                             <div>
                                 <h4 className="font-bold text-gray-900 uppercase tracking-wide mb-1">Address</h4>
-                                <p className="text-gray-600">Wilton Hotel, Navy Gate<br />Abu Dhabi, United Arab Emirates</p>
+                                <p className="text-gray-600">Wilton Lounge & Restaurant, Navy Gate<br />Abu Dhabi, United Arab Emirates</p>
                             </div>
                         </div>
 
@@ -45,7 +45,7 @@ export default function ContactPage() {
                             <Mail className="text-gold mt-1 shrink-0" size={24} />
                             <div>
                                 <h4 className="font-bold text-gray-900 uppercase tracking-wide mb-1">Email</h4>
-                                <p className="text-gray-600">reservations@wiltonhotel.com</p>
+                                <p className="text-gray-600">reservations@wiltonlounge.com</p>
                             </div>
                         </div>
 

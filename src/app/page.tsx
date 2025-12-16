@@ -1,7 +1,6 @@
 import Hero from "@/components/Hero";
 import AboutSection from "@/components/AboutSection";
 import ShishaDiningPreview from "@/components/ShishaDiningPreview";
-import FeaturedRooms from "@/components/FeaturedRooms";
 
 export default function Home() {
   return (
@@ -9,7 +8,6 @@ export default function Home() {
       <Hero />
       <AboutSection />
       <ShishaDiningPreview />
-      <FeaturedRooms />
     </>
   );
 }

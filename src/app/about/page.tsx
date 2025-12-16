@@ -20,30 +20,30 @@ export default function AboutPage() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h2 className="text-3xl font-serif text-royal-blue mb-8">Our Heritage of Hospitality</h2>
+                    <h2 className="text-3xl font-serif text-royal-blue mb-8">A Sanctuary of Taste & Luxury</h2>
                     <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                        Since opening our doors, Wilton Hotel has redefined luxury living in Abu Dhabi.
+                        Wilton Lounge & Restaurant redefines the social experience in Abu Dhabi.
                         Our philosophy is simple: to provide a sanctuary where every guest feels like royalty.
-                        From our bespoke interiors designed by world-renowned architects to our culinary
-                        masterpieces, every aspect of Wilton is crafted for perfection.
+                        From our bespoke interiors designed for comfort to our culinary masterpieces,
+                        every aspect of Wilton is crafted for perfection.
                     </p>
                     <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                        Located in the prestigious Navy Gate district, we offer unparalleled access to
-                        the city's business hubs and leisure attractions, while maintaining an atmosphere
+                        Located in the prestigious Navy Gate district, we offer the finest premium shisha
+                        selection and a diverse menu of international flavors, all within an atmosphere
                         of complete serenity.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
                         <div className="p-6 border border-gray-100 shadow-sm">
-                            <h3 className="text-xl font-serif text-gold mb-2">5-Star Luxury</h3>
-                            <p className="text-gray-500">Certified premium hospitality standards.</p>
+                            <h3 className="text-xl font-serif text-gold mb-2">Premium Shisha</h3>
+                            <p className="text-gray-500">Exotic flavors and expert preparation.</p>
                         </div>
                         <div className="p-6 border border-gray-100 shadow-sm">
-                            <h3 className="text-xl font-serif text-gold mb-2">Prime Location</h3>
-                            <p className="text-gray-500">Minutes from downtown and attractions.</p>
+                            <h3 className="text-xl font-serif text-gold mb-2">Gourmet Dining</h3>
+                            <p className="text-gray-500">A journey of taste across cuisines.</p>
                         </div>
                         <div className="p-6 border border-gray-100 shadow-sm">
-                            <h3 className="text-xl font-serif text-gold mb-2">24/7 Service</h3>
-                            <p className="text-gray-500">Round-the-clock concierge and dining.</p>
+                            <h3 className="text-xl font-serif text-gold mb-2">Elegant Ambiance</h3>
+                            <p className="text-gray-500">Perfect for relaxation and social gatherings.</p>
                         </div>
                     </div>
                 </motion.div>

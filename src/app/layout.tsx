@@ -20,8 +20,8 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Wilton Hotel | Luxury Stay in Abu Dhabi",
-  description: "Experience elegance, comfort, and premium hospitality at Wilton Hotel, Abu Dhabi.",
+  title: "Wilton Lounge & Restaurant | Premium Shisha in Abu Dhabi",
+  description: "Experience elegance and gourmet dining at Wilton Lounge & Restaurant, Abu Dhabi's premier destination for luxury shisha.",
 };
 
 export default function RootLayout({

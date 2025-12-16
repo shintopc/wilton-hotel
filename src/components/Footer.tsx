@@ -12,7 +12,7 @@ export default function Footer() {
                         <div className="relative h-28 w-56 mb-6">
                             <img
                                 src="/images/logo.png"
-                                alt="Wilton Hotel"
+                                alt="Wilton Lounge"
                                 className="w-full h-full object-contain object-left"
                             />
                         </div>
@@ -32,7 +32,6 @@ export default function Footer() {
                         <h3 className="font-serif text-lg text-gold mb-6 tracking-widest">EXPLORE</h3>
                         <ul className="space-y-4">
                             <li><Link href="/about" className="text-white/80 hover:text-gold transition-colors">About Us</Link></li>
-                            <li><Link href="/rooms" className="text-white/80 hover:text-gold transition-colors">Rooms & Suites</Link></li>
                             <li><Link href="/shisha-lounge" className="text-white/80 hover:text-gold transition-colors">Shisha Lounge</Link></li>
                             <li><Link href="/gallery" className="text-white/80 hover:text-gold transition-colors">Gallery</Link></li>
                         </ul>
@@ -45,7 +44,7 @@ export default function Footer() {
                             <li className="flex items-start space-x-4">
                                 <MapPin className="text-gold shrink-0 mt-1" size={20} />
                                 <span className="text-white/80">
-                                    Wilton Hotel, Navy Gate, Abu Dhabi, UAE
+                                    Wilton Lounge & Restaurant, Navy Gate, Abu Dhabi, UAE
                                 </span>
                             </li>
                             <li className="flex items-center space-x-4">
@@ -54,7 +53,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center space-x-4">
                                 <Mail className="text-gold shrink-0" size={20} />
-                                <span className="text-white/80">info@wiltonhotel.com</span>
+                                <span className="text-white/80">info@wiltonlounge.com</span>
                             </li>
                         </ul>
                     </div>
@@ -62,7 +61,7 @@ export default function Footer() {
 
                 {/* Copyright */}
                 <div className="border-t border-white/10 pt-8 text-center text-white/60 text-sm">
-                    <p>&copy; {new Date().getFullYear()} Wilton Hotel. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Wilton Lounge & Restaurant. All rights reserved.</p>
                 </div>
             </div>
         </footer>
